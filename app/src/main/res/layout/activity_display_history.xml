@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.product.hao.newnotepad.DisplayHistory"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0px"
+            android:background="@drawable/shape1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_choose_text"
+            android:text="WORDS"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="0px"
+            android:background="@drawable/shape1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/button_choose_audio"
+            android:text="SOUND"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+    <FrameLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/fragment_container"/>
+
+</LinearLayout>

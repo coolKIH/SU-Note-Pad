@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.3'
+    }
+}
+
+android {
+    compileSdkVersion 24             // 根据你的项目进行调整
+    buildToolsVersion "23.0.3"       // 根据你的项目进行调整
+
+    defaultConfig {
+        minSdkVersion 16             // 根据你的项目进行调整
+        targetSdkVersion 24          // 根据你的项目进行调整
+    }
+
+    sourceSets.main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDirs = ['src']
+        resources.srcDirs = ['src']
+        res.srcDirs = ['res']
+        jniLibs.srcDirs = ['libs']
+    }
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Note Pad</string>
+    <string name="button_min_width">25dp</string>
+    <string-array name="array_functions_in_hbg">
+        <item name="History">History</item>
+        <item name="Clean">Remove All</item>
+        <item name="SLang">Change Scanned LG</item>
+        <item name="test">Test Test</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">testActivity</string>
+    <string-array name="array_scan_lang">
+        <item name="EN">English</item>
+        <item name="CN-S">CN-SIM</item>
+        <item name="CN-T">CN-TRA</item>
+    </string-array>
+</resources>
