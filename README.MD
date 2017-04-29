@@ -6,7 +6,7 @@ One of the most powerful feature is that the SU Note Pad, powered by Tess2 Lib, 
 One of the sweetest things it can do is scan QR code encoding words or share notes using QR images, isn't that cool?
 
 ##  Also NOTE 
-that to use ocr functions of recognizing English or Chinese words from images, you are supposed to copy required traindata from here:
+To use ocr functions of recognizing English or Chinese words from images, you are supposed to copy required traindata from here:
 https://github.com/tesseract-ocr/tessdata
 to sdcard0/haoOcr/tessdata.
 
